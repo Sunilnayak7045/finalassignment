@@ -1,0 +1,32 @@
+ git init
+ git checkout -b Dev
+ git checkout -b Test
+ git add assignment.txt
+ git commit -m "Added Assignment"
+ git status
+ git checkout -b Dev
+ git status 
+ git add git.txt github.txt
+ git commit -m "Added 2 Files"
+ git status
+ git switch Test
+ notepad assignment.txt
+ git diff assignment.txt
+ git status
+ git add assignment.txt
+ git commit -m "Updated Assignment Qts"
+ git switch master
+ git checkout -b master
+ git merge Dev
+ git merge Test
+ git remote add origin https://github.com/Sunilnayak7045/finalassignment.git
+ git push -u origin master
+ git switch Dev
+ git push -u origin Dev
+ git switch Test
+ git push -u origin Test
+ git switch master
+ git clone <url
+ git add Solution.txt
+ git commit -m <message
+ git push origin master 
